@@ -21,10 +21,6 @@ VEC =20
 T1 = 21
 T2 = 22
 
-
-
-
-
 MSROUT = 1
 MAROUT = 2
 MDROUT = 3
@@ -47,10 +43,6 @@ ESOUT = 19
 VECOUT =20
 T1OUT = 21
 T2OUT = 22
-
-
-
-
 
 MSRIN = 1 << 5
 MARIN = 2 << 5
@@ -92,4 +84,18 @@ PCOUT = 2 ** 15
 PCIN = PCCS | PCWE
 PCINC = PCCS | PCWE | PCEN
 
+CYC = 2 ** 30
 HLT = 2 ** 31
+
+
+
+
+
+ADDR2 = 1 << 7
+ADDR1 = 1 << 6
+ADDR2SHIFT = 4
+ADDR1SHIFT = 2
+AMINS = 0
+AMREG = 1
+AMDIR = 2
+AMRAM = 3
