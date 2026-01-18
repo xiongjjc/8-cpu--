@@ -58,7 +58,6 @@
     <sep/>
     <tool lib="0" name="Pin"/>
     <tool lib="0" name="Pin">
-      <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </tool>
     <sep/>
@@ -555,6 +554,8 @@
     </comp>
     <comp lib="0" loc="(1330,510)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="10signed"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1390,810)" name="Pin">
@@ -691,6 +692,11 @@
       <a name="radix" val="10signed"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(560,670)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="output" val="true"/>
+      <a name="width" val="2"/>
+    </comp>
     <comp lib="0" loc="(570,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="north"/>
@@ -714,6 +720,7 @@
     </comp>
     <comp lib="0" loc="(740,670)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(790,810)" name="Pin">
@@ -4706,7 +4713,7 @@
     <wire from="(430,550)" to="(430,590)"/>
     <wire from="(430,590)" to="(830,590)"/>
     <wire from="(430,620)" to="(430,690)"/>
-    <wire from="(430,620)" to="(830,620)"/>
+    <wire from="(430,620)" to="(590,620)"/>
     <wire from="(430,850)" to="(430,920)"/>
     <wire from="(430,850)" to="(450,850)"/>
     <wire from="(430,920)" to="(550,920)"/>
@@ -4740,12 +4747,15 @@
     <wire from="(550,850)" to="(550,920)"/>
     <wire from="(550,850)" to="(570,850)"/>
     <wire from="(550,920)" to="(670,920)"/>
+    <wire from="(560,670)" to="(590,670)"/>
     <wire from="(570,180)" to="(570,250)"/>
     <wire from="(570,180)" to="(690,180)"/>
     <wire from="(570,250)" to="(590,250)"/>
     <wire from="(570,290)" to="(590,290)"/>
     <wire from="(570,830)" to="(570,850)"/>
     <wire from="(570,830)" to="(590,830)"/>
+    <wire from="(590,620)" to="(590,670)"/>
+    <wire from="(590,620)" to="(830,620)"/>
     <wire from="(600,200)" to="(600,240)"/>
     <wire from="(600,200)" to="(720,200)"/>
     <wire from="(600,860)" to="(600,940)"/>
